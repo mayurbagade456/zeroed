@@ -792,7 +792,7 @@ function SoundRound({
  * ────────────────────────────────────────────────────────────────────────── */
 
 const CARD =
-  "relative mx-auto h-[max(28rem,calc(100dvh-26rem))] w-full max-w-[29.75rem] select-none overflow-hidden rounded-[22px] shadow-[0_24px_60px_rgba(0,0,0,0.55)] [container-type:inline-size] max-sm:-mx-4 max-sm:w-[calc(100%+2rem)] max-sm:max-w-none max-sm:rounded-none sm:h-[clamp(28rem,72dvh,38.75rem)]";
+  "relative mx-auto h-[max(28rem,calc(100dvh-26rem))] w-full max-w-[29.75rem] select-none overflow-hidden rounded-[22px] shadow-[0_24px_60px_rgba(0,0,0,0.55)] [container-type:inline-size] sm:h-[clamp(28rem,72dvh,38.75rem)]";
 const STRIP_W = 30;
 const THUMB = 26;
 const THUMB_PAD = THUMB / 2 + 2;
